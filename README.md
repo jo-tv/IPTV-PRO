@@ -22,9 +22,3 @@ Vous pouvez consulter une version de démonstration du site via le lien suivant 
 *(Remplacez ce lien par GitHub Pages, Vercel ou Netlify)*  
 
 ---
-
-## ⚙️ Utilisation
-
-1. **Cloner le dépôt :**
-   ```bash
-   git clone https://github.com/username/iptv-pro-landing.git

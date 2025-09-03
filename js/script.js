@@ -100,7 +100,15 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
   window.open(whatsappUrl, '_blank');
 });
 
-
-function contact(){
-  window.location.href = "#contact2"
+function contact() {
+  window.location.href = '#contact2';
 }
+//منع تحديد النصوص ونسخها 
+document.addEventListener('contextmenu', (event) => event.preventDefault());
+// منع اختصارات النسخ (Ctrl+C / Ctrl+S / Ctrl+U...)
+document.onkeydown = function (e) {
+  if (e.ctrlKey && (e.key === 'u' || e.key === 's' || e.key === 'c' || e.key === 'x')) {
+    e.preventDefault();
+    alert('حقوق هذا الموقع محفوظة © IPTV PRO');
+  }
+};
