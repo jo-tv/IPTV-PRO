@@ -89,7 +89,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
   const whatsappMessage = `Nom: ${name}\nN°Telephone: ${email}\nAbonnement: ${subject}\nMessage: ${message}`;
 
   // رقم واتساب بدون +
-  const whatsappNumber = '212656945290';
+  const whatsappNumber = '212601862102';
 
   // إنشاء رابط واتساب مع ترميز صحيح
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(
